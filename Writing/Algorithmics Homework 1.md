@@ -75,7 +75,7 @@ So after the first sort:$(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
 (全英文版不是晶晶體ㄌ)
-![](../images/HW1/1.png)
+![](../img/HW1/1.png)
 -->
 Another example array : $9_1,1,9_2,10,2$
 The first number in the unsorted array will be the pivot.
@@ -86,7 +86,7 @@ Step3 :If up>down, inetrchange x[down] with x[up] and return to step 1
 The first sort with pivot $9_1$ : $(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
-![](../images/HW1/2.png)
+![](../img/HW1/2.png)
 )
 
 
@@ -376,14 +376,14 @@ The thought like (b),  but have to using recursive to let it can using find2Sum.
 Time complexity：$O(n^n)$
 
 ### Problem 6
-:::info
+
 How to merge k sorted lists with total length N efficiently. What is the execution time of your algorithm.
-:::
+
 Use Divide and Conquer approach to slove this problem.
 First , it is knowned merging list need $O(N)$ time.
 Second , pair up the lists.
 Take binary Tree as an example , it consumed $(\log_2 k)$ time.
-![](../images/HW1/3ß.png)
+![](../img/HW1/3.png)
 
 
 So concluding the execution time of Divide and Conquer is $O(N(\log k))$
