@@ -75,7 +75,7 @@ So after the first sort:$(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
 (全英文版不是晶晶體ㄌ)
-![](https://i.imgur.com/WQGPkVv.jpg)
+![](../images/HW1/1.png)
 -->
 Another example array : $9_1,1,9_2,10,2$
 The first number in the unsorted array will be the pivot.
@@ -86,7 +86,8 @@ Step3 :If up>down, inetrchange x[down] with x[up] and return to step 1
 The first sort with pivot $9_1$ : $(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
-![](https://i.imgur.com/uUf2XCu.png =300x)
+![](../images/HW1/2.png)
+)
 
 
 #### Conclusion
@@ -382,7 +383,7 @@ Use Divide and Conquer approach to slove this problem.
 First , it is knowned merging list need $O(N)$ time.
 Second , pair up the lists.
 Take binary Tree as an example , it consumed $(\log_2 k)$ time.
-![](https://i.imgur.com/WxKOSpm.png)
+![](../images/HW1/3ß.png)
 
 
 So concluding the execution time of Divide and Conquer is $O(N(\log k))$
