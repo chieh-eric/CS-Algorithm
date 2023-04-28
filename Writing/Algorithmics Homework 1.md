@@ -62,7 +62,7 @@ final(i) 是計算結束時 V_i 數組中的索引。
 the heap array will be: $9_1,9_3,9_2,1,2$
 1st: $9_3,2,9_2,1,(9_1)$
 In the first exchange,since the last one($9_1$) is fixed,we can know heap sort is unstable.
-![](https://i.imgur.com/3MSi8t1.png)
+![](../img/HW1/1.png =300x)
 
 
 - quick sort
@@ -75,7 +75,7 @@ So after the first sort:$(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
 (全英文版不是晶晶體ㄌ)
-![](../img/HW1/1.png)
+![](../img/HW1/1.png =300x)
 -->
 Another example array : $9_1,1,9_2,10,2$
 The first number in the unsorted array will be the pivot.
@@ -86,7 +86,7 @@ Step3 :If up>down, inetrchange x[down] with x[up] and return to step 1
 The first sort with pivot $9_1$ : $(2,1,9_2),9_1,(10)$
 We can observe that $9_1$ is fixed, $9_2$ is in front of $9_1$,so that quick sort is unstable. 
 
-![](../img/HW1/2.png)
+![](../img/HW1/2.png =300x)
 )
 
 
