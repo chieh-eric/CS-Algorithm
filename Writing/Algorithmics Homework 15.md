@@ -35,7 +35,7 @@ Let 2-CNF-SAT be the set of satisfiable Boolean formula in CNF with exactly 2 li
         - **ii.** There must be even number of strongly connected components.Topsort the SCC. Suppose there is 2n components, then components $[a_1,a_2,a_3...,a_n,...,a_{2n}]$ is topological. 
             Set $a_{n+1}$ to $a_{2n}$ true (it is to set sink true, since there are n sink at most)，then since the graph is symmetirc, $a_1$ to $a_n$ will be false.
 - Example
-    ![](https://i.imgur.com/ssKrFHi.png)
+    ![](../img/HW15/1.png)
     - there are 6 components in this graph
     - there are two sink : $\overline{c}$ and $a$ 
     - then we assign $\overline{c}$ and $a$ are true.
@@ -62,7 +62,7 @@ y(certificate): f(x) which is vertex injection function from G2 to G1
 A(x, y):Check whether G2 is image of G1's sub-graph denoted by f
 
 Prove $\text{clique problem} \leq\text{subgraph-isomorphism problem}$:
-For a $\text{clique problem}$ we translate it into a $\text{subgraph-isomorphism}$ problem by setting $G1$ as clique problem's input, $G2$ as a complete graph with vertix size k. Solve $\text{subgraph-isomorphism problem}$ with input $<G1, G2>$, so $\text{clique problem} \leq\text{subgraph-isomorphism problem}$
+For a $\text{clique problem}$ we translate it into a $\text{subgraph-isomorphism}$ problem by setting $G1$ as clique problem's input, $G2$ as a complete graph with vertix size k. Solve $\text{subgraph-isomorphism problem}$ with input <G1, G2>, so $\text{clique problem} \leq\text{subgraph-isomorphism problem}$
 
 ### Problem 3 
 
@@ -99,7 +99,7 @@ Given an integer $m \times n$ matrix $A$, and an integer m-vector b, the 0-1 int
 - [有參考但看不懂嗚嗚](https://gnarlyware.com/blog/proving-0-1-integer-programming-is-np-complete-using-reduction-from-3-cnf-sat/)
 - [參考2](https://math.stackexchange.com/questions/1247005/need-help-to-understand-the-solution-for-np-completness-proof-3cnf-0-1-integ)
 
-### Problem 4 (金魚)
+### Problem 4 
 
 Exercises 34.5-7
 Based on hw14-7,we know that longest-simple-cycle problem is an NP-problem. Prove that the problem is NP-complete.
@@ -111,8 +111,8 @@ To prove longest-simple-cycle $\in$ NP-complete problem:
 - Step 2: Reduce the $\text{hamiltonian cycle}$ problem to the $\text{longest-simple-cycle}$ problem
     - Input $<G, k>$: the input graph $G$ has a simple cycle with at least $k$ vertices
     - Decision problem: 
-        - if $<G, k>$ = 1 ( there is a simple cycle in G ), then we can say that there is a Hamiltonian cycle in G.
-        - if $<G, k>$ = 0 ( there is no simple cycle in G ), then we can say that there is no Hamiltonian cycle in G.
+        - if <G, k> = 1 ( there is a simple cycle in G ), then we can say that there is a Hamiltonian cycle in G.
+        - if <G, k> = 0 ( there is no simple cycle in G ), then we can say that there is no Hamiltonian cycle in G.
     - ∵ Hamiltonian Cycle is in NP-complete
         ∴ Longest Simple Cycle is also in NP-complete
 
