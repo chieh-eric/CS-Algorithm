@@ -109,7 +109,7 @@ To prove longest-simple-cycle $\in$ NP-complete problem:
     - Decision problem: give a graph $G$, if there is a simple-cycle that contains at least $k$ vertice, the the answer is 1, otherwise, the answer is 0.
     - Certificate: give a vertices set $y=\{v_1, v_2, ..., v_n\}, n \ge k$, walk through the set, if it is a simple cycle, then cirtificate that this is a NP problem.
 - Step 2: Reduce the $\text{hamiltonian cycle}$ problem to the $\text{longest-simple-cycle}$ problem
-    - Input $<G, k>$: the input graph $G$ has a simple cycle with at least $k$ vertices
+    - Input <G, k>: the input graph $G$ has a simple cycle with at least $k$ vertices
     - Decision problem: 
         - if <G, k> = 1 ( there is a simple cycle in G ), then we can say that there is a Hamiltonian cycle in G.
         - if <G, k> = 0 ( there is no simple cycle in G ), then we can say that there is no Hamiltonian cycle in G.
