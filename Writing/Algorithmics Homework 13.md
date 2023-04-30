@@ -36,7 +36,6 @@ Show the execution of the Edmonds-Karp algorithm on the flow network of Figure 2
 - $s \Rightarrow v_2 \Rightarrow v_4 \Rightarrow t$
 - $s \Rightarrow v_1 \Rightarrow v_3 \Rightarrow t$
 - $s \Rightarrow v_2 \Rightarrow v_4 \Rightarrow v_3 \Rightarrow t$
-![](https://i.imgur.com/GGhCUaC.png =400x)
 
 $|f|=23$
 
